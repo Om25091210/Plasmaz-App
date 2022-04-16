@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Learn">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:gravity="center"
+                android:text="How different sections of this App works?"
+                android:textColor="@color/colorMiscellaneousBackground"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_light"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="1. Profile" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="18dp"
+                android:textSize="15sp"
+                android:text="By clicking on the picture of the warrior you can open your profile section where you have to update your Information."/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_light"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="2. Charge Your Brain" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="18dp"
+                android:textSize="15sp"
+                android:text="This section is made for fun and to increase your calculation speed.Play it daily to maintain your calculation speed."/>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_light"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="3. The 5 am club" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="18dp"
+                android:textSize="15sp"
+                android:text="To wake up early is annoying for many people but wait, for Plasmaz it's a competition between its own members.\n\nSo how it works...\n\n1.The competition starts from 04:00 am to 05:00 am.\n\n2.This Section stores the time of opening it ,So Open it after 04:00 am and before 05:00 am.\n\n3. After opening this section in time, just drag the emoji from left to right to be on LEGEND side or else you will be a LOSER.\n\n4.Your Wake up point will be added once you exit the Section.\n\n5.Upload your profile picture in the profile section to see it, in this section.Default dp plasmaz logo."/>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_light"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="4. Attendance" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="18dp"
+                android:textSize="15sp"
+                android:text="Open this Section and click on any date to see the attendance sheet."/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_light"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="5. Public Notice" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="18dp"
+                android:textSize="15sp"
+                android:text="Open this Section to see Notices of Plasmaz, You will get a Notification for every new Notice."/>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_light"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="6. To-Do" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="18dp"
+                android:textSize="15sp"
+                android:text="In this section you can make your TO-DO list for your personal use,When you will complete your TO-DO you just have to mark that."/>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_light"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="7. Timeline" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="18dp"
+                android:textSize="15sp"
+                android:text="This section will carry the information about the things done in the classroom set by the teachers."/>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_light"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="8. Exams" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="15sp"
+                android:text="This section will carry the information about the Exams and question paper pdf."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

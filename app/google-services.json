@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "791393134265",
+    "project_id": "plasma-z",
+    "storage_bucket": "plasma-z.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791393134265:android:d45cfcfb6e8a7e3b365d68",
+        "android_client_info": {
+          "package_name": "com.aryomtech.plasmaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791393134265-lh7cse9d603060icsmdrp71lleueb20v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aryomtech.plasmaz",
+            "certificate_hash": "7731335e5a3c900d3d3f8d4e9974c88a97e2d04a"
+          }
+        },
+        {
+          "client_id": "791393134265-25d8knndtvnbrc5foc27lqnbbd2al5du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_mz5ZhQiH5AmM16By4A8ojuyagmRPYUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791393134265-25d8knndtvnbrc5foc27lqnbbd2al5du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
